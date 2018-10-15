@@ -1,0 +1,25 @@
+// Example 5-6: Bouncing Ball
+int x = 0;
+int xSpeed = 2;
+
+void setup() {
+  size(480, 270);
+}
+
+void draw() {
+  background(255);
+
+  // Add the current speed to the x location.
+  x = x + xSpeed;
+
+  // Remember, || means "or."
+  if ((x > width) || (x < 0)) {
+    // If the object reaches either edge, multiply speed by -1 to turn it around.
+    xSpeed = xSpeed * -1;
+  }
+
+  // Display circle at x location
+  stroke(0);
+  fill(175);
+  ellipse(x,100,32,32);
+}

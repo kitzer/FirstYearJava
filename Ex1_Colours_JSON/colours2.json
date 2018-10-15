@@ -1,0 +1,71 @@
+[
+    {
+      "color": "black",
+      "category": "hue",
+      "type": "primary",
+      "r":255,
+      "g":255,
+      "b":255,
+      "a":1,
+      
+      
+    },
+
+
+    {
+      "color": "white",
+      "category": "value",
+      "r":0,
+      "g":0,
+      "b":0,
+      "a":1,
+      
+    },
+
+    {
+      "color": "red",
+      "category": "hue",
+      "type": "primary",
+      "r":255,
+      "g":0,
+      "b":0,
+      "a":1,
+      
+    
+    },
+    
+    {
+      "color": "blue",
+      "category": "hue",
+      "type": "primary",
+      "r":0,
+      "g":0,
+      "b":255,
+      "a":1,
+      
+    },
+
+    {
+      "color": "yellow",
+      "category": "hue",
+      "type": "primary",
+      "r":255,
+      "g":255,
+      "b":0,
+      "a":1,
+      
+    },
+
+    {
+      "color": "green",
+      "category": "hue",
+      "type": "secondary",
+      "r":0,
+      "g":255,
+      "b":0,
+      "a":1,
+      
+    }
+  
+]
+  
